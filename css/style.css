@@ -1,0 +1,28 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+.card {
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.card-body {
+    background-color: #ffeccc;
+}
+.card-footer {
+    background-color: #ff7f00 !important;
+}
+.btn.btn-primary {
+    background-color: #ff7f00; /* Orange background color */
+    border-color: #ff7f00;     /* Orange border color */
+    color: white;              /* Text color */
+}
+
+.btn.btn-primary:hover {
+    background-color: #e66d00; /* Slightly darker orange for hover state */
+    border-color: #e66d00;
+}
+
+.text-center.mt-5 {
+    margin-bottom: 30px;
+}
